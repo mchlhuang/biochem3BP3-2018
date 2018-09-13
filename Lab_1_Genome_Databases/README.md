@@ -34,6 +34,8 @@ Flash Updates – GenBank, Ensemble, Growth of Sequencing Data
 <a name="laws"></a>
 ## Moore's and Kryder's Laws
 
+> Flash Update - Growth of Sequencing Data
+
 You were introduced to Moore's and Kryder's laws in the lecture:
 
 * Moore’s Law: computer processor speed doubles every 18 months
@@ -106,6 +108,8 @@ If you are doing a research project, after you find a successful set of search t
 <a name="genbank"></a>
 ## GenBank / Entrez
 
+> Flash Update - GenBank
+
 The above exercise illustrates how the combination of data (i.e. citation information), classification (i.e. control vocabularies) and unique identifiers (i.e. PMID) can be used to generate powerful informatics resources. Similar efforts exist for gene sequences. Return to the NCBI homepage, http://www.ncbi.nlm.nih.gov, and search all databases for the drug *colistin*. This gives you a sense of the diversity of data available for a single drug: associated genes, gene expression (GEO), chemical assays, and chemical compound data. Note that there are over 500,000 protein sequences that have an association with colistin. Click on the *Protein* link to view the list and you’ll see the top of the list is predominantly Mcr and Pmr proteins. View the **top 100 hits** and click on the protein in the list with accession AGK23098.1 (PmrA) to view GenBank Format Data, a verbose file format for describing molecular data. While software has been developed to read GenBank format, it is primarily for human consumption.
 
 **Question #11. Find the following information in the GenBank data file:**
@@ -141,6 +145,8 @@ _Feel free to examine the spider protein as a bonus exercise (PRD21386.1)_
 
 <a name="ensembl"></a>
 ## Ensembl
+
+> Flash Update - Ensembl
 
 The Ensembl database is a joint effort of the European Bioinformatics Institute and The Welcome Trust Sanger Institute. It has its origins in the sequencing of the human genome and was launched in 1999. Unlike NCBI, it is organized around the genome sequencing of specific organisms and the resulting annotation of those genomes. Outside of very browsable data, Ensembl has two major strengths: (1) extensive data downloads in a variety of formats and (2) powerful genome browser tools. This part of the lab is going to focus on use of Ensembl to better understand the genome of the model organism _Danio rerio_ (aka zebrafish). To start, go to the Ensembl home page (http://www.ensembl.org/) and view the full list of all Ensembl species.
 
