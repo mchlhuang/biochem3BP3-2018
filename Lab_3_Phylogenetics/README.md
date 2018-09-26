@@ -19,7 +19,6 @@ Flash Updates – Terminology, Sequence Alignment, Phylogenetic Trees
 * Mesquite, http://www.mesquiteproject.org
 * RAxML Blackbox, http://www.genome.jp/tools/raxml/
 * Archaeopteryx, https://sites.google.com/site/cmzmasek/home/software/archaeopteryx 
-* Prosite, http://prosite.expasy.org
 * NCBI Tree Viewer, http://www.ncbi.nlm.nih.gov/projects/treeview/
 
 **The Lab**
