@@ -79,6 +79,22 @@ Perform multiple sequence alignment on these data via the menu, *Matrix -> Align
 	
 **Question #2. Based on the multiple sequence alignment, do you think your putative P450 is a complete gene? Do you think you captured all the exons and protein sequence in your gene model?**
 
+```bash
+Alternative MSA using ClustalX2 directly (optional)
+
+Click on the Windows icon at the bottom left of your screen and use the search box to search for the program Clustalx2
+
+Use File -> Load Sequences to load your seqdump.txt file
+
+Alignment -> Do Complete Alignment
+
+Click on the Windows icon at the bottom left of your screen and use the search box to search for the program Mesquite
+
+File -> Open File to load file seqdump.aln under the Clustal (protein) format
+
+When prompted, save a NEXUS version of these data as “seqdump.txt.nex”. This is Mesquite’s preferred file format.
+```
+
 <a name="edit"></a>
 ## Alignment Editing
 
