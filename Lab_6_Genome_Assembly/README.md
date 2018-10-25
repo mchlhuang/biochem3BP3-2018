@@ -112,7 +112,7 @@ ls
 
 We are now going to use the Velvet assembly to make contigs and scaffolds. First we need to make an assembly directory and then calculate the kmers present in the sequencing reads. The Velvet algorithm requires the kmer value to be an odd number to avoid palindromes. Longer kmers bring more specificity, but lower coverage. The Velvet package has been found to perform well with kmer length of 31 bp:
 
-> Something went wrong above and you need correct results for the VELVET assembly? Type "cp ../results/* ."
+> Something went wrong above and you need correct results for the VELVET assembly? Type "cp ../result/* ."
 
 ```bash
 mkdir draft_assembly
