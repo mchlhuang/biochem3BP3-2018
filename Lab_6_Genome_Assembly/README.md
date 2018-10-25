@@ -169,6 +169,8 @@ Using the lab computers, visualize the quality of the assembly graph, with an em
 <a name="galaxy"></a>
 ## Galaxy
 
+> Flash Update - Galaxy
+
 You will receive a demonstration of the Galaxy workflow environment (http://galaxylab.mcmaster.ca) and will assemble a full size *Salmonella* genome sequencing project which will be used in next week’s molecular epidemiology laboratory.
 
 **WE RECOMMEND YOU WORK IN TEAMS OF FOUR FOR BETTER SERVER PERFORMANCE**
