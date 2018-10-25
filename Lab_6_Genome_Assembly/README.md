@@ -193,7 +193,7 @@ By click on the file name you will expand the green box to see all the contents.
 
 You will be shown how to use the FASTQC tool. Run FASTQC on both data files and you will generate raw and web page results for both files. Full details on all the plots can be found here: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/
 
-[!FASTQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/per_base_quality.png)
+![FASTQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/per_base_quality.png)
 
 For each position a BoxWhisker type plot is drawn. The elements of the plot are as follows:
 
