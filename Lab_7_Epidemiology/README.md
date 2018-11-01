@@ -37,9 +37,17 @@ In the previous lab you assembled a *Salmonella enterica* genome sequence, learn
 <a name="tasks"></a>
 ## Tasks
 
+Your instructor will demonstrate the software needed to complete the following tasks:
+
+> Flash Update - SNPs
+
 * http://WGSA.net provides molecular typing tools for a number of pathogens. While it does not have a core genome MLST (cgMLST) framework for *Salmonella enterica*, it can perform traditional MLST profiling. Upload your sequences to WGSA.net to examine the MLST typing. Note that an alternate site, SISTR, can perform *Salmonella* cgMLST but it lacks sufficient hardware to be workable in a classroom setting (https://lfz.corefacility.ca/sistr-app/). We won’t be trying SISTR for this lab.
 
+> Flash Update - Horizontal Gene Transfer
+
 * In addition to WGSA.net, these genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer). The result is a PHYLIP format file that also includes a reference sequence from the same MLST as well as the strain labels from WGSA.net. Perform a RAxML analysis (http://www.genome.jp/tools/raxml/) to determine fine-resolution relationships of these strains. Note: this is a nucleotide alignment, not a protein alignment, but as before include a gamma model of rate heterogeneity, a maximum likelihood search, and estimated proportion of invariable sites. The results file to look at is *RAxML_bipartitions.out* and the results are easier to look as a cladogram (i.e. no branch lengths).
+
+> Flash Update - RAD-Seq
 
 * *Salmonella* infections are often treated without antibiotics, except for severe cases in which trimethoprim (pediatric) or fluoroquinolones (adult) are used. If you find evidence of clonal outbreaks in your data, sample a genome from each subset for Resistance Gene Identifier analysis (part of http://card.mcmaster.ca). 
 
@@ -66,7 +74,7 @@ Examine your RAxML results in Forester or another tree viewing program. Midpoint
 
 **Question #8 (2 points). Chicken burgers distributed by a local food supplier have been found to be contaminated with *Salmonella* (samples 4 & 5). Subsequently, several patients (samples 2, 7, 8, 15) known to have eaten (and possibly undercooked) these chicken burgers were additionally found to have *Salmonella* infections. Is there evidence of a single source of all these infections? Could the illness of additional patients possibly be explained by contaminated chicken burgers? Explain. (hint: bootstrap support is very important for these interpretations)**
 
-**Question #9 (3 points). *Salmonella* infections are often treated without antibiotics, except for severe cases in which trimethoprim (pediatric) or fluoroquinolone (adult) are used. If you find evidence of independent sub-clades in your RAxML tree (i.e. separated by strong bootstrap support and possibly reflecting strain lables), sample a genome from each subset for Resistance Gene Identifier analysis. What is the predicted susceptibility to trimethoprim or fluoroquinolones? Could you use either drug for treatment of these sub-clades?**
+**Question #9 (3 points). *Salmonella* infections are often treated without antibiotics, except for severe cases in which trimethoprim (pediatric) or fluoroquinolones (adult) are used. If you find evidence of independent sub-clades in your RAxML tree (i.e. separated by strong bootstrap support and possibly reflecting strain lables), sample a genome from each subset for Resistance Gene Identifier analysis. What is the predicted susceptibility to trimethoprim or fluoroquinolones? Could you use either drug for treatment of these sub-clades?**
 
 **Question #10 (2 points). For the single patient that is abnormally resistant to antibiotics, does the AMR++ analysis concur that resistance to drugs beyond trimethoprim or fluoroquinolones exists in this microbiome? Which additional drug classes may not work against this microbiome?**
 
