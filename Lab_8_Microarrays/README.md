@@ -15,7 +15,7 @@ The goal of this lab is to review the analysis of microarray data.
 Flash Updates - Microarrays, Normalization, False Discovery
 
 **Links**
-* http://www.tm4.org/mev.html - Microarray Software Suite TM4’s Multi-Experiment Viewer
+* http://mev.tm4.org - Microarray Software Suite TM4’s Multi-Experiment Viewer
 
 **The Lab**
 * The computers in the laboratory are terminals - clients within a large maintained computer system. They have limited computational power - often we will be using them to access web-based tools or specialized servers with more computational resources.
@@ -73,7 +73,7 @@ From **Example 2**, you will next look at some normalized data from an experimen
 
 **Question #6 - What is the most highly expressed gene in the Universal Reference samples?**
 
-**Question #7 - Which genes are saturated in which samples? Is there saturation in the Universal Reference?**
+**Question #7 - Are there saturated probes? How many and in which samples? Is there saturation in the Universal Reference?**
 
 **Question #8 - Are there non-uniform features for the Universal Reference or any of the experimental samples?**
 

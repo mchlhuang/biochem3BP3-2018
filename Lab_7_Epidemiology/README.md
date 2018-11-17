@@ -45,7 +45,7 @@ Your instructor will demonstrate the software needed to complete the following t
 
 > Flash Update - Horizontal Gene Transfer
 
-* In addition to WGSA.net, these genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer). The result is a PHYLIP format file that also includes a reference sequence from the same MLST as well as the strain labels from WGSA.net. Perform a RAxML analysis (http://www.genome.jp/tools/raxml/) to determine fine-resolution relationships of these strains. Note: this is a nucleotide alignment, not a protein alignment, but as before include a gamma model of rate heterogeneity, a maximum likelihood search, and estimated proportion of invariable sites. The results file to look at is *RAxML_bipartitions.out* and the results are easier to look as a cladogram (i.e. no branch lengths).
+* In addition to WGSA.net, these genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer). The result is a PHYLIP format file that also includes a reference sequence from the same MLST as well as the strain labels from a k-mer analysis. Perform a RAxML analysis (http://www.genome.jp/tools/raxml/) to determine fine-resolution relationships of these strains. Note: this is a nucleotide alignment, not a protein alignment, but as before include a gamma model of rate heterogeneity, a maximum likelihood search, and estimated proportion of invariable sites. The results file to look at is *RAxML_bipartitions.out* and the results are easier to look as a cladogram (i.e. no branch lengths).
 
 > Flash Update - RAD-Seq
 
@@ -56,7 +56,7 @@ Your instructor will demonstrate the software needed to complete the following t
 <a name="questions"></a>
 ## Questions
 
-**Question #1 (3 points). Are all your outbreak samples from the same known MSLT? Are any from novel or unresolved MLSTs? For those resolved MLSTs, does WGSA.net predict more than one identifiable strain (it does this by looking for strain-specific k-mers)?**
+**Question #1 (3 points). Are all your outbreak samples from the same known MSLT? Are any from novel or unresolved MLSTs?**
 
 **Question #2 (1 point). If some MLST are unresolved, explain why for one sample.**
 
@@ -66,7 +66,7 @@ Examine your RAxML results in Forester or another tree viewing program. Midpoint
 
 **Question #4 (1 point). How many positions in the genome of *Salmonella enterica* are being used to generate the phylogenetic tree?**
 
-**Question #5 (2 points). Do the various strain labels assigned in WGSA.net form monophyletic clades with strong bootstrap support? If not, why do you think this is the case? You can ignore the small number of samples that were not assigned to a specific strain.**
+**Question #5 (2 points). Do the various strain labels assigned by k-mers form monophyletic clades with strong bootstrap support? If not, why do you think this is the case? You can ignore the small number of samples that were not assigned to a specific strain.**
 
 **Question #6 (2 points). Given that the reference sequence NC_011294 may be very closely related to the Ontario strains but all other reference sequences are from different MLSTs and outbreaks, is there any evidence that the Ontario samples do not reflect a single source outbreak of *Salmonella*? Think carefully about the bootstrap values.**
 
